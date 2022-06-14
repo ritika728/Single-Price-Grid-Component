@@ -13,14 +13,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: nowrap;
 }
 
 .main{
-    box-sizing: border-box;
-    flex-direction: column;
-    margin: 200px;
-    border-radius: 10px;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 5px;
     overflow: hidden;
     
 }
@@ -29,9 +27,8 @@ h1{
 }
 .container1{
 
-    padding: 30px !important;
+    padding: 35px !important;
     background-color: white;
-    padding: 15px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -39,17 +36,44 @@ h1{
 .container2{
     color: white;
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .box1{
-    padding: 30px;
-    flex: 50%;
+    padding: 35px;
+    width: 50%;
     background-color: hsl(179, 62%, 43%);
 }
 
 .box2{
+    letter-spacing: 0.03rem;
     flex: 50%;
-    padding: 30px;
-    background-color: hsl(179, 62%, 43%,0.5) !important;
+    padding: 35px;
+    background-color: hsl(179, 62%, 43%,0.7) !important;
 }
 
+.big{
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+}
+
+.small{
+    margin-bottom: 0.7rem;
+    color:hsl(204, 43%, 93%);
+    font-weight: lighter;
+    letter-spacing: 0.07rem;
+}
+
+.button{
+    font-size: 1rem;
+    color: white;
+    background-color: hsl(71, 73%, 54%) ;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+
+}
